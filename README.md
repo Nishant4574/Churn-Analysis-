@@ -1,27 +1,33 @@
-# Healthcare Data Analysis and Visualization
+# Customer Churn Analysis
 
-This project aims to streamline healthcare data analysis and improve decision-making for healthcare providers by utilizing advanced data visualization and analytics techniques.
+This project focuses on analyzing customer churn data to identify factors contributing to customer attrition and provide insights to improve customer retention.
 
 ## Problem Statement
-The goal of this project is to enhance the decision-making process for healthcare providers by analyzing raw healthcare data and visualizing key trends and metrics. The project focuses on improving the efficiency and quality of healthcare services through actionable insights derived from data.
+The goal of this project is to analyze customer churn data, identify key factors contributing to customer attrition, and develop insights that can help improve customer retention strategies.
 
-## Procedure
-1. **Data Collection**: Raw healthcare data was collected from various healthcare systems and databases.
-2. **Data Cleaning & Transformation**: The data was cleaned, normalized, and transformed to ensure consistency, accuracy, and usability.
-3. **Statistical Analysis**: Applied statistical methods to extract valuable insights and key performance metrics from the processed data.
-4. **Data Visualization**: Developed interactive and dynamic dashboards to visualize trends, patterns, and metrics for enhanced decision-making.
+## Step-by-Step Procedure
+1. **Data Collection**: Gathered customer churn data from relevant sources.
+2. **Data Cleaning**: Cleaned and prepared the data for analysis using Python libraries.
+3. **Data Analysis**: Analyzed the dataset to uncover trends and factors affecting customer churn.
+4. **Data Visualization**: Created visualizations using Matplotlib and Seaborn to identify patterns and relationships between variables.
+5. **Insights Development**: Identified critical factors, such as contract type, value-added services, and payment methods, that influence customer churn.
 
 ## Conclusion
-The project provided healthcare providers with improved tools for making data-driven decisions. By visualizing key healthcare metrics, it helped to improve the overall efficiency and effectiveness of healthcare services, leading to better patient care and resource management.
+The analysis revealed that customers who do not use value-added services, have month-to-month contracts, and use electronic checks for payments are more likely to churn. These insights can help develop strategies for improving customer retention.
 
 ## Tools Used
-- **Power BI**: Created interactive and dynamic dashboards for data visualization.
-- **Microsoft Excel**: Performed data cleaning, transformation, and basic statistical analysis.
+- **Python**: For data analysis and manipulation.
+- **Pandas**: Data manipulation and processing.
+- **NumPy**: For numerical operations.
+- **Matplotlib** & **Seaborn**: For data visualization.
+- **Jupyter Notebook**: For organizing and running the analysis.
 
 ## Outcome
-The analysis resulted in the visualization of key trends and patterns, helping healthcare providers make informed, data-driven decisions that improved the efficiency of healthcare services.
+The project helped in identifying key factors affecting customer churn and provided actionable insights for improving customer retention strategies.
 
 ## How to Run
 1. Clone the repository.
-2. Clean and preprocess the data using Microsoft Excel.
-3. Load the processed data into Power BI and create interactive dashboards for visualization.
+2. Install the required Python libraries using the `requirements.txt` file.
+3. Load the customer churn dataset into the Jupyter Notebook.
+4. Run the analysis and generate visualizations to interpret the results.
+
